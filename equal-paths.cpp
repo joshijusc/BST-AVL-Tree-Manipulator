@@ -33,7 +33,7 @@ int processLeaves(Node* root, bool& l){
     }
     else if (root->left != nullptr && root->right == nullptr){
         return rootL + 1;
-    } else if (root->left == nullptr && root->right != nullptr){
+    } else {//if (root->left == nullptr && root->right != nullptr){
         return rootR + 1;
     }
 }
