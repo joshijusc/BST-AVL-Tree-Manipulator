@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
     else {
         cout << "Did not find b" << endl;
     }
+
     cout << "Erasing b" << endl;
     bt.remove('b');
 
